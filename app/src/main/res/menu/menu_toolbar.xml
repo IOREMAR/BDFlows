@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/actionSearch"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:iconTint="@color/white"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/actionSort"
+        android:icon="@drawable/ic_stopwatch"
+        android:title="Sort"
+        app:iconTint="@color/white"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/actionDeleteAll"
+        android:icon="@drawable/ic_delete_user"
+        android:title="Delete All"
+        app:iconTint="@color/white"
+        app:showAsAction="always" />
+</menu>
